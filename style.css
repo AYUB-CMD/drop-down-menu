@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(https://kecbio.com/wallpaper/beautiful-nebula-pictures-For-Full-Resolution-Wallpaper.jpg);
+	background-size:1366px 768 cover ;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.nav-bar{
+	background: rgb(55, 0, 55);
+	text-align: center;
+}
+.nav-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: silver;
+
+}
+.nav-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.nav-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active,.nav-bar ul li:hover{
+	background: purple;
+	border-radius: 3px;
+
+}
+.nav-bar .fa{
+	margin-right: 8px;
+}
+.sub-menu{
+	display: none;
+}
+.nav-bar ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background: rgb(55, 0, 55);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.nav-bar ul li:hover .sub-menu ul{
+	display: block;
+	margin: 10px;
+}
+.nav-bar ul li:hover .sub-menu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.nav-bar ul li:hover .sub-menu ul li:last-child{
+	border: none;
+}
+.nav-bar ul li:hover .sub-menu ul li a:hover{
+	color: purple;
+}
